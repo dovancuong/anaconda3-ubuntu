@@ -1,0 +1,13 @@
+Config Sublime-text for anaconda3 in ubuntu
+Tools ->New Build System...
+--> input json code:
+{
+    "cmd": ["/home/ubuntu/anaconda3/bin/python", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python"
+}
+
+-->rename & save for example anaconda3
+--> Select Tools --> Build System--> anaconda3
+completed!
+
